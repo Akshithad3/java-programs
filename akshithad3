@@ -1,0 +1,94 @@
+
+package packaged3;
+
+
+public class object {
+
+	int x = 4;
+
+	public static void main(String[] args) {
+
+		object myobj = new object();
+
+		System.out.println(myobj.x);
+
+		}
+
+}
+
+#Prime program:
+package packaged3;
+
+
+public class prime {
+
+		  public static void main(String[] args) {
+
+
+		    int num = 20;
+
+		    boolean flag = false;
+
+		    for (int i = 2; i <= num / 2; i++) {
+
+		     
+
+		      if (num % i == 0) {
+
+		        flag = true;
+
+		        break;
+
+		      }
+
+		    }
+
+
+		    if (!flag)
+
+		      System.out.println(num + " is a prime number.");
+
+		    else
+
+		      System.out.println(num + " is not a prime number.");
+
+		  }
+# hello program:
+	package packaged3;
+
+
+public class add {
+
+	public static void main(String[] args) {
+
+		System.out.println("hello world");
+
+	}
+
+
+}
+#palindrome program:
+
+import java.util.Scanner;
+
+public class PalindromeChecker {
+
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        System.out.print("Enter a number: ");
+        int number = scanner.nextInt();
+       scanner.close();
+        
+       
+        if (isPalindrome(number)) {
+            System.out.println(number + " is a palindrome.");
+        } else {
+            System.out.println(number + " is not a palindrome.");
+        }
+    }
+    public static boolean isPalindrome(int number) {
+        int originalNumber = number; // Store the original number
+        int reverriginalNumber == reversedNumber;
+    }
+}
+
